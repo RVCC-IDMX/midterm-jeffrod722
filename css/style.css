@@ -183,12 +183,14 @@ footer {
     #hero {
         display: flex;
         justify-content: center;
-        font-size: 30px;
+        font-size: 28px;
     }
 
     #hero img {
-        width: 8rem;
+        width: 5rem;
     }
+
+    
 
 
     /* Projects */
@@ -204,6 +206,14 @@ footer {
         grid-column: 1/-1;
     }
 
+    .project {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+    #projects div h3 {
+        border-bottom: none;
+    }
     /* Reviews */
     #reviews {
         display: block;
