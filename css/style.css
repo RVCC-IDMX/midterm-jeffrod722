@@ -154,11 +154,30 @@ footer {
 @media (max-width: 1000px) {
 
     /* Header & Hero */
+    
 
     /* Projects */
+.dress {
+   grid-column: 1/-1;
+   display: grid;
+}
+.costume {
+   grid-column: 1/-1;
+   display: grid;
+}
 
+.blanket {
+   grid-column: 1/-1;
+   display: grid;
+}
     /* Reviews */
+#reviews {
+        display: block;
+    }
 
+    h4 {
+        text-align: center;
+    }
     /* Footer */
 
 }
